@@ -8,4 +8,5 @@ class App < Sinatra::Base
   end
 end
 
-class 
+class Final < Sinatra::Base
+  get ''
