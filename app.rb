@@ -16,4 +16,5 @@ class Square < Sinatra::Base
 end
 
 class Phrase < Sinatra::Base
-  get '/say/:number/:phrase
+  get '/say/:number/:phrase'
+    
