@@ -20,6 +20,7 @@ class Phrase < Sinatra::Base
     @main = params[:number] 
     @final = params[:phrase]
     
+    
     return @main * @final
   end
 end
