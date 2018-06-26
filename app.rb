@@ -15,4 +15,4 @@ class Square < Sinatra::Base
   end
 end
 
-class Phrase 
+class Phrase < Sinatra::Base
