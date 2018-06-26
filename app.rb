@@ -21,3 +21,7 @@ class Phrase < Sinatra::Base
     @main = gets.chomp 
     puts "What's your number?"
     @final = gets.chomp
+    
+    return @main * @final
+  end
+end
