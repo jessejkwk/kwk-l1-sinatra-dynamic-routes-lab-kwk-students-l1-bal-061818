@@ -11,4 +11,4 @@ end
 class Square < Sinatra::Base
   get '/square/:number' do
     @square = (@number.to_i**2).to_s
-  
+    @square 
