@@ -20,7 +20,7 @@ class Phrase < Sinatra::Base
     count = 0
     @main = params[:number] 
     @final = params[:phrase]
-    until count == @main
+    while count < @main
       return @final
       count += 1
     end
