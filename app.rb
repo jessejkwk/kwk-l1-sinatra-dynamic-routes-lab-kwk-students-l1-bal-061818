@@ -10,4 +10,5 @@ end
 
 class Square < Sinatra::Base
   get '/square/:number' do
-    @reverse_name = params[]
+    @square = (@number.to_i**2).to_s
+  
