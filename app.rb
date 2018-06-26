@@ -17,8 +17,11 @@ end
 
 class Phrase < Sinatra::Base
   get '/say/:number/:phrase' do
+    count = 0
     @main = params[:number] 
     @final = params[:phrase]
-    return @main * @final 
+    while count < @main
+      return @final
+    end
   end
 end
