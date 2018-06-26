@@ -27,4 +27,5 @@ class Phrase < Sinatra::Base
   end
 end
 
-class 
+class Words < Sinatra::Base
+  gets ''
