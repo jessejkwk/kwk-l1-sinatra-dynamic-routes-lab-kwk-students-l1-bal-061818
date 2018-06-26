@@ -29,3 +29,8 @@ end
 
 class Words < Sinatra::Base
   gets '/say/:word1/:word2/:word3/:word4/:word5'
+    @wordone = params[:word1]
+    @wordtwo = params[:word2]
+    @wordthree = params[:word3]
+    @wordfour = params[:word4]
+    @wordfive = params[:word5]
