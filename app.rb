@@ -34,3 +34,4 @@ class Words < Sinatra::Base
     @wordthree = params[:word3]
     @wordfour = params[:word4]
     @wordfive = params[:word5]
+    puts "#{@wordone} + #{@wordtwo} + #{@wordthree} + #{@wordfour} + #{@wordfive}"
