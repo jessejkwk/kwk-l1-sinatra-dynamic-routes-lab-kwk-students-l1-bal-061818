@@ -22,6 +22,7 @@ class Phrase < Sinatra::Base
     @final = params[:phrase]
     until count == @main
       return @final
+      count += 1
     end
   end
 end
