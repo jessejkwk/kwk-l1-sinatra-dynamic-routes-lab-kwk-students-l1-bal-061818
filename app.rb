@@ -16,5 +16,8 @@ class Square < Sinatra::Base
 end
 
 class Phrase < Sinatra::Base
-  get '/say/:number/:phrase'
-    
+  get '/say/:number/:phrase' do
+    puts "What's your phrase?"
+    @main = gets.chomp 
+    puts "What's your number?"
+    @final = gets.chomp
