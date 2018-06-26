@@ -37,3 +37,5 @@ class Words < Sinatra::Base
     puts "#{@wordone} + #{@wordtwo} + #{@wordthree} + #{@wordfour} + #{@wordfive}"
   end
 end
+
+class 
