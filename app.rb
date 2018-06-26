@@ -16,3 +16,4 @@ class Square < Sinatra::Base
 end
 
 class Phrase < Sinatra::Base
+  get ''
