@@ -28,4 +28,4 @@ class Phrase < Sinatra::Base
 end
 
 class Words < Sinatra::Base
-  gets ''
+  gets '/say/:word1/:word2/:word3/:word4/:word5'
