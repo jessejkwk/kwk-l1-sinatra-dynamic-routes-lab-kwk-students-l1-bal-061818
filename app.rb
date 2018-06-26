@@ -40,3 +40,4 @@ end
 
 class Numbers < Sinatra::Base 
   gets "/:operation/:number1/:number2"
+    @divide = params[:]
