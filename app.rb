@@ -38,4 +38,5 @@ class Words < Sinatra::Base
   end
 end
 
-class 
+class Numbers < Sinatra::Base 
+  
