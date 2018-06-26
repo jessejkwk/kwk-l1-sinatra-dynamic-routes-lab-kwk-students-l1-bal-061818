@@ -19,7 +19,7 @@ class Phrase < Sinatra::Base
   get '/say/:number/:phrase' do
     @main = params[:number] 
     @final = params[:phrase]
-    
+    return @main * @final 
     
     return @main * @final
   end
