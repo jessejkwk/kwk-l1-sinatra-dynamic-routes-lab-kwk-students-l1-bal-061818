@@ -39,4 +39,4 @@ class Words < Sinatra::Base
 end
 
 class Numbers < Sinatra::Base 
-  gets ""
+  gets "/:operation/:number1/:number2"
