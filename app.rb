@@ -9,4 +9,5 @@ class App < Sinatra::Base
 end
 
 class Final < Sinatra::Base
-  get ''
+  get '/reversename/:name' do
+    @reverse_name = params[]
