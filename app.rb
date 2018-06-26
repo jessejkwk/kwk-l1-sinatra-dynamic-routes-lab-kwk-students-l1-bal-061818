@@ -26,3 +26,5 @@ class Phrase < Sinatra::Base
     end
   end
 end
+
+class 
