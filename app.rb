@@ -39,4 +39,4 @@ class Words < Sinatra::Base
 end
 
 class Numbers < Sinatra::Base 
-  
+  gets ""
